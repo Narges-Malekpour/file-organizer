@@ -9,3 +9,7 @@ fi
 
 echo "Directory found! Proceeding to organize..."
 
+mkdir -p "$dir_path/Images"
+mkdir -p "$dir_path/Documents"
+mkdir -p "$dir_path/Videos"
+mkdir -p "$dir_path/Archives"
